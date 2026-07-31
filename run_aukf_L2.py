@@ -1,9 +1,9 @@
 import os
 import pandas as pd
 import numpy as np
-from data_loader import load_data
-from models import estimate_mle_L2, run_aukf_L2
-from utils import load_priors, diagnostics
+from src.data_loader import load_data
+from src.models import estimate_mle_L2, run_aukf_L2
+from src.utils import load_priors, diagnostics
 
 def main():
     # Rutas relativas limpia
