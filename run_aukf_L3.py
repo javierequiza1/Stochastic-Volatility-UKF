@@ -1,9 +1,9 @@
 import os
 import pandas as pd
 import numpy as np
-from data_loader import load_data
-from models import estimate_mle_L3, run_aukf_L3
-from utils import load_priors, diagnostics
+from src.data_loader import load_data
+from src.models import estimate_mle_L3, run_aukf_L3
+from src.utils import load_priors, diagnostics
 
 def main():
     data_path = os.path.join("dataset", "dataset_SPY_daily.csv")
