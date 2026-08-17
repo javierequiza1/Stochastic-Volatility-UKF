@@ -1,0 +1,9 @@
+quantity,value
+dependent_variable,h_L3
+independent_variable,h_L2
+intercept,0.019027448352663404
+slope,1.0179741701535914
+R_squared,0.9636738377237792
+residual_mean,4.63936531783255e-15
+residual_SD,0.13761765336149503
+residual_RMSE,0.13758429554901574

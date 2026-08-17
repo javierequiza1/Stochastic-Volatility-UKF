@@ -1,0 +1,26 @@
+{
+  "_note": "bayes.* replica las constantes PRIOR_* de idea.py (identicas a idea2.py; fuente de verdad de los resultados ya documentados en el TFM). Estos valores difieren de los redactados en la Seccion de priors del anexo LaTeX (sigma_alpha=2.0, sigma_phi=0.10, sigma_rho=0.30). Decidir y unificar antes de dar los resultados por definitivos.",
+  "bayes": {
+    "alpha_loc": -10.0,
+    "alpha_scale": 3.0,
+    "phi_loc": 0.95,
+    "phi_scale": 0.15,
+    "sigma_scale": 0.5,
+    "rho_loc": -0.20,
+    "rho_scale": 0.40
+  },
+  "mle": {
+    "alpha0": -10.5,
+    "phi0": 0.95,
+    "sigma0": 0.15,
+    "rho0": -0.30,
+    "extra_seeds": [
+      [-9.5, 0.98, 0.08, -0.20],
+      [-11.5, 0.90, 0.25, -0.40],
+      [-9.56, 0.997, 0.12, -0.40],
+      [-9.56, 0.997, 0.15, -0.45],
+      [-10.0, 0.98, 0.22, -0.35],
+      [-9.0, 0.99, 0.08, -0.30]
+    ]
+  }
+}

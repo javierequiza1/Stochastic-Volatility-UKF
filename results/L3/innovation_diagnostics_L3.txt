@@ -1,0 +1,12 @@
+==============================================================
+DIAGNOSTICOS DE INNOVACIONES ESTANDARIZADAS  e_t = nu_t / sqrt(P_rr_t)
+==============================================================
+  Media (ideal 0):           -0.028746
+  Std   (ideal 1):           1.017669
+  Sesgo:                     -1.0575
+  Curtosis exceso:           4.9428
+  Jarque-Bera:               stat=2471.42  p=0.0000  X
+  Ljung-Box(e,  lag=10):     Q=26.24  p=0.0034  X autocorr
+  Ljung-Box(e^2,lag=10):     Q=105.98  p=0.0000  X vol-cluster
+  ACF(e,  lag=1):            -0.0415   (ideal ~ 0)
+  ACF(e^2,lag=1):            0.0920   (ideal ~ 0)
